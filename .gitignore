@@ -1,0 +1,48 @@
+# Minecraft server files
+logs/
+crash-reports/
+world/
+journeymap/
+.mixin.out/
+tmp/
+snapshots-server/
+banned-ips.json
+banned-players.json
+eula.txt
+ops.json
+usercache.json
+usernamecache.json
+whitelist.json
+
+# *.jar
+
+# Generated files
+*.log
+*.log.gz
+
+# Backup files
+backups/
+
+# Plugin-specific files
+plugins/*/cache/
+plugins/*/logs/
+
+# Mods-specific files
+mods/.index/*
+
+# Configuration files that might contain sensitive information
+server.properties
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (if you use an IDE)
+.idea/
+*.iml
+.vscode/
+
+# Temporary files
+*~
+*.swp
+*.tmp
